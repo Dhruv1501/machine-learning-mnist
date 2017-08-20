@@ -1,4 +1,7 @@
-## What is MNIST (source)
+## Demo
+  ![image](./images/mnist.gif)
+
+## What is MNIST ([source](https://en.wikipedia.org/wiki/MNIST_database))
 
 MNIST database (Modified National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems. The database is also widely used for training and testing in the field of machine learning. It was created by "re-mixing" the samples from NIST's original datasets. The creators felt that since NIST's training dataset was taken from American Census Bureau employees, while the testing dataset was taken from American high school students, it was not well-suited for machine learning experiments. Furthermore, the black and white images from NIST were normalized to fit into a 20x20 pixel bounding box and anti-aliased, which introduced grayscale levels.
 
@@ -8,8 +11,6 @@ The MNIST database contains 60,000 training images and 10,000 testing images. Ha
 
 In this project I converted MNIST database to JSON, for ease of work in JavaScript. I'm used [Synaptic JS](http://caza.la/synaptic/#/) Neural Network framework to train on approximately 80% of data. Then used remaining 20% to test. It is also possible to draw your own digits and get it recognized with a high level of correctness.
 
-## Demo
-  ![image](./images/mnist.gif)
 
 ### How to run
 
