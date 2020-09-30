@@ -1,4 +1,4 @@
-## Demo
+## Demo --Its is a not a project, its is like a demo which i use it
   ![image](./images/mnist.gif)
 
 ## What is MNIST ([source](https://en.wikipedia.org/wiki/MNIST_database))
